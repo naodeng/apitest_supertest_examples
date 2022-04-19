@@ -15,7 +15,7 @@
         "pageTitle": "API Test Report",
         "publicPath": "testReport/jestApiTestReport.html",
         "includeFailureMsg": true,
-        "openReport": true
+        "openReport": false
       }
     ]
   ]
