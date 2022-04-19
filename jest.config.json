@@ -1,0 +1,22 @@
+{
+  "testMatch": [
+    "**/specs/**/*.[jt]s?(x)",
+    "**/?(*.)+(spec|test).[tj]s?(x)"
+  ],
+  "transformIgnorePatterns": [
+    "/node_modules/",
+    "\\.pnp\\.[^\\\/]+$"
+  ],
+  "reporters": [
+    "default",
+    "jest-html-reporters",
+    [
+      "./node_modules/jest-html-reporters",
+      {
+        "pageTitle": "API Test Report",
+        "publicPath": "testReport/jestApiTestReport.html",
+        "includeFailureMsg": true
+      }
+    ]
+  ]
+}

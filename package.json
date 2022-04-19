@@ -4,7 +4,8 @@
   "description": "api test demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -20,13 +21,12 @@
     "url": "https://github.com/waitnoww/apitest_supertest_examples/issues"
   },
   "homepage": "https://github.com/waitnoww/apitest_supertest_examples#readme",
-  "dependencies": {
-    "chai": "^4.3.4",
-    "express": "^4.17.1",
-    "lodash": "^4.17.21",
-    "mocha": "^9.0.0",
-    "should": "^13.2.3",
-    "sleep": "^6.3.0",
-    "supertest": "^6.1.3"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "dayjs": "^1.11.1",
+    "jest": "^27.5.1",
+    "jest-html-reporters": "^3.0.6",
+    "supertest": "^6.2.2"
   }
 }

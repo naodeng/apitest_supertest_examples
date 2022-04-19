@@ -1,0 +1,4 @@
+{
+    "cssAPI": "/query",
+    "getCoopTypesAPI": "/newsreport/getCoopTypes"
+}
